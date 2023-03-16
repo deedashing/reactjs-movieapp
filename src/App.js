@@ -14,11 +14,11 @@ function App() {
         <BrowserRouter>
             <Route render={props => (
                 <>
-                    <Header {...props}/>
-                    <Routes/>
-                    <Footer/>
+                    <Header {...props} />
+                    <Routes />
+                    <Footer />
                 </>
-            )}/>
+            )} />
         </BrowserRouter>
     );
 }
